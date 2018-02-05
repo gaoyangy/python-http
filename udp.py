@@ -5,4 +5,4 @@ sk.bind(ip_port)
 
 while True:
     data = sk.recv(1024)
-    print(data)
+    print('刚刚来的数据是',data)
